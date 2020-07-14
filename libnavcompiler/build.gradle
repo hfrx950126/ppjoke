@@ -3,8 +3,8 @@ apply plugin: 'java-library'
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(':libnavannotation')
-    implementation 'com.alibaba:fastjson:1.2.59'
-    api 'com.google.auto.service:auto-service:1.0-rc4'
+    implementation 'com.alibaba:fastjson:1.2.61'
+    api 'com.google.auto.service:auto-service:1.0-rc6'
 }
 
 sourceCompatibility = "8"
